@@ -3,20 +3,24 @@ import { contactPlatforms } from "@/lib/data-objects/contact-platforms";
 
 export default function Contact() {
   return (
-    <section id="contact" className="flex-1 grid gap-y-24 px-6 lg:px-8 py-24 sm:py-32">
+    <section
+      id="contact"
+      className="grid flex-1 gap-y-24 px-6 py-24 sm:py-32 lg:px-8"
+    >
       <div className="md:text-center lg:px-32">
         {/* mx-auto max-w-2xl px-6 py-24 sm:py-32 lg:px-8 lg:text-center */}
         <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
           Contact
         </h2>
         <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-100">
-          Thanks for taking the time to view my portfolio. Let's get in touch and achieve great things together!
+          Thanks for taking the time to view my portfolio. Let's get in touch
+          and achieve great things together!
         </p>
       </div>
 
       <ul
         role="list"
-        className="flex flex-col md:flex-row gap-12 md:gap-24 justify-center md:items-center"
+        className="flex flex-col justify-center gap-12 md:flex-row md:items-center md:gap-24"
         // grid gap-x-8 gap-y-12 pb-24 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2
       >
         {contactPlatforms.map((contactPlatform, index) => (

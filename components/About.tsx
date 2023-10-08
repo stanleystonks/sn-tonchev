@@ -13,10 +13,10 @@ export default function About() {
   return (
     <section
       id="about"
-      className="flex-1 grid grid-cols-3 gap-x-24 gap-y-24 px-6 lg:px-8 py-24 sm:py-32"
+      className="grid flex-1 grid-cols-3 gap-x-24 gap-y-24 px-6 py-24 sm:py-32 lg:px-8"
       // mx-auto grid w-full gap-x-8 gap-y-20 px-6 py-24 sm:py-32 md:max-w-7xl lg:px-8 xl:grid-cols-3
     >
-      <div className="col-span-3 lg:col-span-1 flex flex-col justify-center" >
+      <div className="col-span-3 flex flex-col justify-center lg:col-span-1">
         {/* max-w-2xl */}
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
           That's me in the corner.
@@ -30,7 +30,7 @@ export default function About() {
 
       <ul
         role="list"
-        className="grid gap-x-8 gap-y-8 grid-cols-2 col-span-3 lg:col-span-2 lg:align-items-center"
+        className="lg:align-items-center col-span-3 grid grid-cols-2 gap-x-8 gap-y-8 lg:col-span-2"
       >
         {roles.map((role, index) => (
           <li key={index} className="col-span-2 lg:col-span-1">

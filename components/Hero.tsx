@@ -2,7 +2,7 @@
 
 export default function Hero() {
   return (
-    <section className="isolate relative flex-1 px-6 py-32 sm:py-48 lg:px-8 lg:py-56">
+    <section className="relative isolate flex-1 px-6 py-32 sm:py-48 lg:px-8 lg:py-56">
       <div className="hidden sm:mb-8 sm:flex sm:justify-center">
         <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20 dark:text-gray-100 dark:ring-gray-50/30 dark:hover:ring-gray-50/50">
           Brand new Spotify app just released.{" "}

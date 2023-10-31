@@ -3,7 +3,7 @@ import { Separator } from "@/components/ui/separator";
 import Project from "./Project";
 import ProjectsHeading from "./ProjectsHeading";
 
-import { playlist124 } from "@/lib/data-objects/projects";
+import { clueless, playlist124 } from "@/lib/data-objects/projects";
 
 export default function Projects() {
   return (
@@ -13,6 +13,7 @@ export default function Projects() {
     >
       <ProjectsHeading />
       <Project project={playlist124} />
+      <Project project={clueless} />
     </section>
   );
 }
